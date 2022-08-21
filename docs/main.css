@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+:root {
+    --dark-text: #FFFAFA;
+    --dark-nav-bg: #2E3638;
+    --dark-body-bg: #505660;
+}
+.centered {
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+body {
+    margin: 0;
+    background-color: var(--dark-body-bg);
+    color: var(--dark-text);
+}
+
+html {
+    font-family: 'Jetbrains Mono';
+}
+
+ul li {
+    display: inline;
+    padding: 10px;
+    font-size: 125%;
+}
+
+.nav {
+    background-color: var(--dark-nav-bg);
+    margin: 0;
+    padding: 20px;
+}
+
+li.left {
+    float: left;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--dark-text)
+}
+
+.gh {
+    float: right;
+}
+
+.logo {
+    height: 200px;
+    border: 5px solid transparent;
+    border-radius: 20px
+}
+
+code {
+    font-family: 'JetBrains Mono';
+    font-size: 80%;
+    background-color: var(--dark-nav-bg);
+    padding: 2px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.grab {
+    cursor: pointer;
+}
+
+a {
+    color: var(--dark-text);
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--dark-nav-bg);
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

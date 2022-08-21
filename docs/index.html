@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet">
+    <link href="hyssop.png" rel="icon" type="image/png">
+    <title>hyssop.js</title>
+</head>
+<body>
+    <header>
+        <ul class="nav">
+            <li><a href="main.html">home</a></li>
+            <li><a href="docs.html">using hyssop</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="https://github.com/lillupad/hyssop.js" h-ignore="true">GitHub</a></li>
+        </ul>
+    </header>
+    <div id="h-main"></div>
+    <footer>
+        <a class="grab" onclick="theme()">light mode</a> | believe it or not, this very website was made with hyssop.js! | <a href="main.html">back home</a>
+    </footer>
+    <script src="hyssop.min.js"></script>
+    <script>
+        function cp() {
+            navigator.clipboard.writeText('https://github.com/lillupad/hyssop.js/raw/master/hyssop/0.1/hyssop.min.js')
+        }
+        console.log('just a test script, this should stay when you load a new page')
+        document.body.addEventListener('click', (e) => {
+            if(e.target.tagName === "A" && e.target.getAttribute('h-ignore') != "true") {console.count('loaded a new page')}
+        })
+    </script>
+</body>
+</html>
