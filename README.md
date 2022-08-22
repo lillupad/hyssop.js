@@ -6,3 +6,4 @@ a small library for turning multi-page websites into zero-reload single-page sit
 ### todo for v0.1
 * add changeable title and head data
 * turn div#h-main into it's own element
+* fix pageloads from url
