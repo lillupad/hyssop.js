@@ -28,7 +28,7 @@ ul li {
     font-size: 125%;
 }
 
-.nav {
+#nav {
     background-color: var(--dark-nav-bg);
     margin: 0;
     padding: 20px;
